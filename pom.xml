@@ -122,7 +122,7 @@
 		<jsml.version>1.1.2</jsml.version>
 		<log4j-core.version>2.17.1</log4j-core.version>
 		<commons-cli.version>1.4</commons-cli.version>
-		<jaxb.version>2.2.11</jaxb.version>
+		<jaxb.version>2.3.0.1</jaxb.version>
 		<activation.version>1.1.1</activation.version>
 		<project.main.resources>src/main/resources</project.main.resources>
 		<commons-codec.version>1.11</commons-codec.version>
@@ -226,8 +226,7 @@
 						</goals>
 						<configuration>
 							<transformers>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<mainClass>com.hastobe.transparenzsoftware.Transparenzsoftware</mainClass>
 									<manifestEntries>
 										<Main-Class>com.hastobe.transparenzsoftware.Transparenzsoftware</Main-Class>
