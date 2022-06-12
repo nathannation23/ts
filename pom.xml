@@ -113,7 +113,7 @@
 	</dependencies>
 
 	<properties>
-		<bouncycastle.version>1.59</bouncycastle.version>
+		<bouncycastle.version>1.70</bouncycastle.version>
 		<jdk.version>1.8</jdk.version>
 		<file.encoding>UTF-8</file.encoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -226,8 +226,7 @@
 						</goals>
 						<configuration>
 							<transformers>
-								<transformer
-									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<mainClass>com.hastobe.transparenzsoftware.Transparenzsoftware</mainClass>
 									<manifestEntries>
 										<Main-Class>com.hastobe.transparenzsoftware.Transparenzsoftware</Main-Class>
